@@ -1077,23 +1077,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jeanmi\\.nuget\\packages\\": {},
+    "C:\\Users\\Alexandre\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeanmi\\OneDrive - Cégep de Trois-Rivières\\A22\\GUI\\Git\\GitTest1\\GitTest1\\GitTest1.csproj",
+      "projectUniqueName": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\GitTest1.csproj",
       "projectName": "GitTest1",
-      "projectPath": "C:\\Users\\jeanmi\\OneDrive - Cégep de Trois-Rivières\\A22\\GUI\\Git\\GitTest1\\GitTest1\\GitTest1.csproj",
-      "packagesPath": "C:\\Users\\jeanmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeanmi\\OneDrive - Cégep de Trois-Rivières\\A22\\GUI\\Git\\GitTest1\\GitTest1\\obj\\",
+      "projectPath": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\GitTest1.csproj",
+      "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jeanmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
