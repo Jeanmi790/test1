@@ -30,7 +30,7 @@ namespace GitTest1
 
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Dip Shit";
+            myButton.Content = "Dip Shit, go fuck your self";
         }
     }
 }
