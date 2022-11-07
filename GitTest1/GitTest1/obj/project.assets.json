@@ -1077,25 +1077,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alexandre\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\2130666\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\GitTest1.csproj",
+      "projectUniqueName": "C:\\Users\\2130666\\Source\\Repos\\test1\\GitTest1\\GitTest1\\GitTest1.csproj",
       "projectName": "GitTest1",
-      "projectPath": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\GitTest1.csproj",
-      "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexandre\\OneDrive - Cégep de Trois-Rivières\\Cégep\\A2022\\GUI\\Projet\\TestJeanMi\\GitTest1\\GitTest1\\obj\\",
+      "projectPath": "C:\\Users\\2130666\\Source\\Repos\\test1\\GitTest1\\GitTest1\\GitTest1.csproj",
+      "packagesPath": "C:\\Users\\2130666\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2130666\\Source\\Repos\\test1\\GitTest1\\GitTest1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\2130666\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows10.0.19041.0"
@@ -1143,43 +1146,43 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x86",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
-            "version": "[10.0.19041.27, 10.0.19041.27]"
+            "version": "[10.0.19041.26, 10.0.19041.26]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-            "version": "[6.0.10, 6.0.10]"
+            "version": "[6.0.8, 6.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -1190,7 +1193,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
