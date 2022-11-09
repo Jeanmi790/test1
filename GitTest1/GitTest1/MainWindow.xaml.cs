@@ -32,5 +32,11 @@ namespace GitTest1
         {
             myButton.Content = "Dip Shit, go fuck yourself";
         }
+
+        private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
+        {
+            var item = args.SelectedItem as NavigationViewItem;
+            header.Text = item.Content.ToString();
+        }
     }
 }

@@ -7,10 +7,24 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <NavigationView PaneDisplayMode="LeftCompact"
+                    SelectionChanged="NavigationView_SelectionChanged">
+        <NavigationView.Header>
+            <TextBlock Text=""
+                       x:Name="header"/>
+        </NavigationView.Header>
+        <NavigationView.MenuItems>
+
+            <NavigationViewItemHeader Content="Main" />
+            <NavigationViewItem Content="Maison" Icon="Home"  />
+            <NavigationViewItem Content="Favoris" Icon="Favorite" />
+            <NavigationViewItem Content="Calendrier" Icon="Calendar" />
+            <NavigationViewItemSeparator />
+        </NavigationView.MenuItems>
         <Button x:Name="myButton" Click="myButton_Click">DipShit Me</Button>
         <!--
         Why six is scare of seven?
         -->
-    </StackPanel>
+    </NavigationView>
 </Window>
