@@ -37,6 +37,7 @@ namespace GitTest1
         {
             var item = args.SelectedItem as NavigationViewItem;
             header.Text = item.Content.ToString();
+            //Deuxième option header.Text = item.Tag.ToString();
         }
     }
 }

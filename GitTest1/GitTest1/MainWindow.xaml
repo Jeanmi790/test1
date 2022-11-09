@@ -19,7 +19,7 @@
             <NavigationViewItemHeader Content="Main" />
             <NavigationViewItem Content="Maison" Icon="Home"  />
             <NavigationViewItem Content="Favoris" Icon="Favorite" />
-            <NavigationViewItem Content="Calendrier" Icon="Calendar" />
+            <NavigationViewItem Content="Calendrier" Icon="Calendar" Tag="calend"/>
             <NavigationViewItemSeparator />
         </NavigationView.MenuItems>
         <Button x:Name="myButton" Click="myButton_Click">DipShit Me</Button>
