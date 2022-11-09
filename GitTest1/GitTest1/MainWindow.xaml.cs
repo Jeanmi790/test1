@@ -28,16 +28,29 @@ namespace GitTest1
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Dip Shit, go fuck yourself";
-        }
+        //private void myButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    myButton.Content = "Dip Shit, go fuck yourself";
+        //}
 
         private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
             var item = args.SelectedItem as NavigationViewItem;
             header.Text = item.Content.ToString();
             //Deuxième option header.Text = item.Tag.ToString();
+            switch (item.Name)
+            {
+
+                case "Calendrier":
+                    mainFrame.Navigate(typeof(Calendrier));
+                    break;
+                case "Favoris":
+                    mainFrame.Navigate(typeof(Favoris));
+                    break;
+                default:
+                    break;
+            }
+
         }
     }
 }
